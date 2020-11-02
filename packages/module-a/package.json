@@ -2,5 +2,13 @@
   "name": "module-a",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "react": "^17.0.1"
+  },
+  "scripts": {
+    "start": "mdb",
+    "build": "node ./index.js"
+  }
 }

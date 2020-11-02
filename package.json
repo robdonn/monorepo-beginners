@@ -1,0 +1,20 @@
+{
+  "name": "monorepo-beginners",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/robdonn/monorepo-beginners.git",
+  "author": "Robert Donnelly <dev@robdonn.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/lodash"
+    ]
+  },
+  "scripts": {
+    "start": "mdb"
+  }
+}
