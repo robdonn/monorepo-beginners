@@ -1,6 +1,13 @@
 {
-  "name": "module-a",
+  "name": "@monorepo-beginners/module-a",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@monorepo-beginners/module-b": "^1.0.0"
+  },
+  "scripts": {
+    "start": "mdb",
+    "build": "node ./index.js"
+  }
 }
